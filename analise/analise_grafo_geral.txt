@@ -2,32 +2,7 @@
   Grafo Geral — Servidores, Órgãos e Empresas (AM)
 ══════════════════════════════════════════════════════════════
 
-INTRODUÇÃO
-──────────
-Este projeto investiga conflitos de interesse na administração pública do Estado
-do Amazonas, cruzando dados da folha de pagamento de servidores públicos com o
-quadro societário de empresas que possuem contratos com órgãos estaduais.
-
-Os dados foram coletados de fontes abertas:
-  • Folha de pagamento (funcionários e vínculos por órgão)
-  • Quadro societário de empresas (sócios e CNPJs via Receita Federal / BrasilAPI)
-  • Contratos firmados entre órgãos públicos e fornecedores
-
-O grafo modela três tipos de entidades (vértices):
-  • Pessoa  — servidores públicos e/ou sócios de empresas
-  • Orgao   — órgãos da administração estadual
-  • Empresa — empresas fornecedoras com CNPJ válido
-
-E quatro tipos de relações (arestas):
-  • TRABALHA_EM        — servidor vinculado a um órgão
-  • SOCIO_DE           — pessoa como sócia de uma empresa
-  • FIRMOU_CONTRATO    — órgão que contratou uma empresa
-  • POSSIVEL_MESMO_QUE — possível correspondência entre cadastros (fuzzy matching)
-
-Repositório com código e instâncias:
-  https://github.com/ludivikdepaula/scrapping_contratos_gov_am
-
-2. TAMANHO DO GRAFO
+TAMANHO DO GRAFO
 ──────────────────────────────────────────────────────────────
   Vértices (total) : 153,103
     • Pessoa        : 149,133
@@ -46,14 +21,14 @@ Repositório com código e instâncias:
 
   → Figura: 3_distribuicao_graus_grafo_geral.png
 
-4. COMPONENTES CONEXAS
+COMPONENTES CONEXAS
 ──────────────────────────────────────────────────────────────
   Número de componentes      : 2
   Componente gigante         : 153,101 vértices  (100.00% do grafo)
   Componentes de tamanho 2   : 1
   Componentes de tamanho 1   : 0
 
-5. DISTRIBUIÇÃO DOS TAMANHOS DAS COMPONENTES
+DISTRIBUIÇÃO DOS TAMANHOS DAS COMPONENTES
 ──────────────────────────────────────────────────────────────
   (excluindo a componente gigante com 153,101 vértices)
 

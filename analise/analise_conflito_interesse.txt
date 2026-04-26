@@ -1,0 +1,67 @@
+══════════════════════════════════════════════════════════════
+  Subgrafo de Conflito de Interesse (AM)
+══════════════════════════════════════════════════════════════
+
+INTRODUÇÃO
+──────────
+Este projeto investiga conflitos de interesse na administração pública do Estado
+do Amazonas, cruzando dados da folha de pagamento de servidores públicos com o
+quadro societário de empresas que possuem contratos com órgãos estaduais.
+
+Os dados foram coletados de fontes abertas:
+  • Folha de pagamento (funcionários e vínculos por órgão)
+  • Quadro societário de empresas (sócios e CNPJs via Receita Federal / BrasilAPI)
+  • Contratos firmados entre órgãos públicos e fornecedores
+
+O grafo modela três tipos de entidades (vértices):
+  • Pessoa  — servidores públicos e/ou sócios de empresas
+  • Orgao   — órgãos da administração estadual
+  • Empresa — empresas fornecedoras com CNPJ válido
+
+E quatro tipos de relações (arestas):
+  • TRABALHA_EM        — servidor vinculado a um órgão
+  • SOCIO_DE           — pessoa como sócia de uma empresa
+  • FIRMOU_CONTRATO    — órgão que contratou uma empresa
+  • POSSIVEL_MESMO_QUE — possível correspondência entre cadastros (fuzzy matching)
+
+Repositório com código e instâncias:
+  https://github.com/ludivikdepaula/scrapping_contratos_gov_am
+
+2. TAMANHO DO GRAFO
+──────────────────────────────────────────────────────────────
+  Vértices (total) : 932
+    • Pessoa        : 760
+    • Orgao         : 22
+    • Empresa       : 150
+
+  Arestas  (total) : 1,815
+    • TRABALHA_EM        : 774
+    • SOCIO_DE           : 871
+    • FIRMOU_CONTRATO    : 170
+    • POSSIVEL_MESMO_QUE : 0
+
+  Grau médio       : 3.8948
+  Grau máximo      : 677
+  Grau mediana     : 2.0
+
+  → Figura: 3_distribuicao_graus_conflito_interesse.png
+
+4. COMPONENTES CONEXAS
+──────────────────────────────────────────────────────────────
+  Número de componentes      : 10
+  Componente gigante         : 748 vértices  (80.26% do grafo)
+  Componentes de tamanho 2   : 0
+  Componentes de tamanho 1   : 0
+
+5. DISTRIBUIÇÃO DOS TAMANHOS DAS COMPONENTES
+──────────────────────────────────────────────────────────────
+  (excluindo a componente gigante com 748 vértices)
+
+  Tam.  | Qtd. componentes
+  ──────┼──────────────────
+    3     | 5
+    5     | 2
+    30    | 1
+    129   | 1
+    50+   | 1
+  → Figura: 5_distribuicao_componentes_conflito_interesse.png

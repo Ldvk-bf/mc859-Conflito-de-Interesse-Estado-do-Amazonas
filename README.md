@@ -35,9 +35,49 @@ Extração → Matching de nomes → Construção do grafo → Exportação → 
 - **NetworkX** — análise de grafos em Python
 - **Gephi** — visualização dos grafos
 - **Matplotlib** — geração de gráficos
+- **Flutter** — aplicativo de visualização interativa
 
 ## Resultados
 
 As análises geradas estão em `analises/`, incluindo distribuições de grau, top entidades (funcionários e empresas), tipos de vínculo e casos ilustrativos (ex.: SEDUC, SES).
 
 Os grafos anonimizados estão em `dados_anonimizados/` no formato GEXF comprimido (`.gexf.gz`).
+
+## Aplicativo Flutter (`conflito_de_interesse/`)
+
+Aplicativo multiplataforma (Android, iOS, macOS, Linux, Windows, Web) para exploração interativa dos dados de conflito de interesse.
+
+### Funcionalidades
+
+- **Resultados** — listagem e busca de registros com filtros por nome, score de risco, valor financeiro, tipo de ciclo e distância temporal
+- **Favoritos** — marcação e acompanhamento de casos de interesse
+- **Exportar** — seleção e exportação de registros em CSV (com toggle de anonimização)
+- **Analytics** — gráficos e métricas agregadas sobre os conflitos (histogramas, barras, cartões de métricas)
+
+### Pré-requisitos
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) ≥ 3.11
+- Dart SDK ≥ 3.11 (incluído no Flutter)
+- Para Android: Android Studio + emulador ou dispositivo físico
+- Para iOS/macOS: Xcode instalado (macOS apenas)
+
+### Como rodar
+
+```bash
+cd conflito_de_interesse
+
+# Instalar dependências
+flutter pub get
+
+# Rodar no dispositivo/emulador padrão
+flutter run
+
+# Rodar especificando plataforma
+flutter run -d macos       # macOS
+flutter run -d chrome      # Web
+flutter run -d android     # Android (emulador ou dispositivo)
+```
+
+### Dados
+
+O app carrega os dados de `assets/data/conflito_de_interesse_full.csv`, que deve ser gerado pelo pipeline Python antes de rodar o aplicativo. O arquivo **não está versionado** por conter dados não anonimizados; substitua-o pela versão anonimizada disponível em `dados_anonimizados/dados_derivados/` se necessário.

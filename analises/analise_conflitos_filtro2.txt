@@ -1,0 +1,93 @@
+ANÁLISE DE CONFLITOS DE INTERESSE — 15/06/2026 18:36
+Conjunto filtrado: 167 instâncias
+=======================================================
+
+UNIVERSO GERAL
+Total de instâncias: 167
+Triângulos: 83 (49.7%)
+Quadrados: 84 (50.3%)
+
+Por órgão:
+  SES: 160
+  FHAJ: 5
+  FHEMOAM: 2
+
+Por tipo de vínculo:
+  Estatutário: 49
+  Temporário: 24
+  Comissionado: 2
+  Outros: 1
+
+CONTRATOS
+94 contratos únicos analisados (0 excluídos por valor ausente)
+Média: R$  6.589.494,88
+Mediana: R$  1.239.715,68
+Desvio padrão: R$  22.226.452,30
+Máximo: R$  196.489.860,00
+Total mobilizado: R$  619.412.518,43
+
+TIMING DOS CONTRATOS
+Durante vínculo: 88 (93.6%)
+Após saída: 6 (6.4%)
+Antes: 0 (0.0%)
+
+DISTRIBUIÇÃO DE VALORES
+  R$0–50mil: 0
+  R$50mil–200mil: 8
+  R$200mil–1mi: 36
+  R$1mi–5mi: 31
+  R$5mi+: 19
+
+TOP 10 EMPRESAS
+  1. BDO RCS AUDITORES INDEPENDENTES - SOCIEDADE SIMPLES LIMITADA: 8
+  2. CARDIOBABY - CLINICA DE CARDIOLOGIA PEDIATRICA LTDA: 7
+  3. MANAOS SERVICOS DE SAUDE LIMITADA: 5
+  4. MAMORE SOLUCOES EM SAUDE LTDA: 5
+  5. GASTROCLIN SERVICOS MEDICOS LTDA: 4
+  6. SEGRA SEGURANCA RADIOLOGICA LTDA: 3
+  7. CADOM - CIRURGIA DO APARELHO DIGESTIVO, BARIATRICA, METABOLICA LTDA.: 3
+  8. FUNDACAO DE APOIO AO HEMOAM - SANGUE NATIVO: 2
+  9. AMAZONAS ENERGIA S.A: 2
+  10. UNIVASC - UNIAO VASCULAR DE SERVICOS MEDICOS LIMITADA.: 2
+
+TOP 10 FUNCIONÁRIOS
+  1. FUNC-7AE31B: 8
+  2. FUNC-B11551: 8
+  3. FUNC-D1F32E: 6
+  4. FUNC-FD2113: 6
+  5. FUNC-CA1424: 6
+  6. FUNC-8288F7: 6
+  7. FUNC-429FFE: 5
+  8. FUNC-FFB954: 5
+  9. FUNC-4463AB: 5
+  10. FUNC-F7DC92: 5
+
+DISTRIBUIÇÃO TEMPORAL (por ano do contrato)
+  2017: 19
+  2018: 30
+  2019: 9
+  2020: 20
+  2021: 25
+  2022: 21
+  2023: 10
+  2024: 8
+  2025: 20
+  2026: 5
+
+DURAÇÃO DOS VÍNCULOS
+  0–1a: 5
+  1–3a: 8
+  3–5a: 9
+  5+a: 54
+
+TIPO DE VÍNCULO — NOS CASOS
+  Estatutário: 64.5%
+  Temporário: 31.6%
+  Comissionado: 2.6%
+  Outros: 1.3%
+
+TIPO DE VÍNCULO — NA FOLHA GERAL
+  Estatutário: 61.2%
+  Comissionado: 5.9%
+  Outros: 4.6%
+  Temporário: 28.4%

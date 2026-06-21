@@ -1,0 +1,21 @@
+
+ESTATÍSTICAS DO GRAFO — Conflito de Interesse AM
+=================================================
+
+Vértices (nós)  : 153,104
+  Pessoa        : 149,133
+  Orgao         : 83
+  Empresa       : 3,888
+
+Arestas         : 194,999
+  TRABALHA_EM         : 158,571
+  SOCIO_DE            : 12,437
+  FIRMOU_CONTRATO     : 21,407
+  POSSIVEL_MESMO_QUE  : 2,584
+
+Grau médio (não-direcionado) : 2.5473
+
+Componentes conexas : 2
+  Maior componente   : 153,102 vértices
+  Tamanho 2          : 1 componentes
+  Isoladas (tam. 1)  : 0 componentes

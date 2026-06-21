@@ -1,0 +1,6 @@
+data/grafo/grafo_geral.gexf
+data/grafo/grafo_geral_label_orgao.gexf
+
+# Dados privados — tabela de anonimização
+data/privado/
+# GEXFs originais grandes (use os _anonimo.gexf.gz)

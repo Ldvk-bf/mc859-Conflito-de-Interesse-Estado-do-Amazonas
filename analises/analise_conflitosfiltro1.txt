@@ -1,0 +1,94 @@
+ANÁLISE DE CONFLITOS DE INTERESSE — 15/06/2026 17:22
+Conjunto filtrado: 45 instâncias
+=======================================================
+
+UNIVERSO GERAL
+Total de instâncias: 45
+Triângulos: 8 (17.8%)
+Quadrados: 37 (82.2%)
+
+Por órgão:
+  SEDUC: 27
+  UEA: 8
+  SSP: 5
+  DETRAN: 3
+  SEPROR: 2
+
+Por tipo de vínculo:
+  Estatutário: 21
+  Comissionado: 4
+  Outros: 3
+  Temporário: 3
+
+CONTRATOS
+34 contratos únicos analisados (0 excluídos por valor ausente)
+Média: R$  3.038.807,04
+Mediana: R$  583.300,00
+Desvio padrão: R$  5.209.798,94
+Máximo: R$  25.731.720,00
+Total mobilizado: R$  103.319.439,28
+
+TIMING DOS CONTRATOS
+Durante vínculo: 24 (70.6%)
+Após saída: 10 (29.4%)
+Antes: 0 (0.0%)
+
+DISTRIBUIÇÃO DE VALORES
+  R$0–50mil: 0
+  R$50mil–200mil: 7
+  R$200mil–1mi: 13
+  R$1mi–5mi: 6
+  R$5mi+: 8
+
+TOP 10 EMPRESAS
+  1. DELOITTE TOUCHE TOHMATSU CONSULTORES LTDA.: 10
+  2. AUTO ESCOLA SABBA LTDA: 1
+  3. CLIMEP CLINICA MEDICA E PSICOLOGICA LTDA.: 1
+  4. M E T INDUSTRIA, COMERCIO E SERVICOS GRAFICOS LTDA: 1
+  5. M DE F DA SILVA COMERCIO DE PRODUTOS ALIMENTICIOS LTDA: 1
+  6. RGK SERVICOS DE ENGENHARIA LTDA: 1
+  7. FUNDACAO UNIVERSITAS DE ESTUDOS AMAZONICOS - F. UEA: 1
+  8. ARSENAL SERVICOS E PRODUCOES DE EVENTOS LTDA: 1
+  9. IPNET SERVICOS EM NUVEM E DESENVOLVIMENTO DE SISTEMAS LTDA: 1
+  10. Z DE O BESSA & CIA LTDA: 1
+
+TOP 10 FUNCIONÁRIOS
+  1. FUNC-145DBC: 5
+  2. FUNC-64A1E4: 5
+  3. FUNC-862A77: 3
+  4. FUNC-B924F9: 2
+  5. FUNC-E3CD91: 2
+  6. FUNC-59F308: 2
+  7. FUNC-74E12F: 2
+  8. FUNC-E5D517: 1
+  9. FUNC-2466DE: 1
+  10. FUNC-F1A363: 1
+
+DISTRIBUIÇÃO TEMPORAL (por ano do contrato)
+  2017: 3
+  2018: 13
+  2019: 2
+  2020: 5
+  2021: 3
+  2022: 7
+  2023: 5
+  2024: 5
+  2025: 2
+
+DURAÇÃO DOS VÍNCULOS
+  0–1a: 2
+  1–3a: 5
+  3–5a: 3
+  5+a: 21
+
+TIPO DE VÍNCULO — NOS CASOS
+  Outros: 9.7%
+  Estatutário: 67.7%
+  Comissionado: 12.9%
+  Temporário: 9.7%
+
+TIPO DE VÍNCULO — NA FOLHA GERAL
+  Estatutário: 61.2%
+  Comissionado: 5.9%
+  Outros: 4.6%
+  Temporário: 28.4%
